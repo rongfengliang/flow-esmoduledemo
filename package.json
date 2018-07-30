@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-amd-to-commonjs": "^1.2.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "flow-bin": "^0.77.0"
+  },
+  "dependencies": {
+    "apollo-client": "^2.3.7",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "subscriptions-transport-ws": "^0.9.14"
+  },
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "start": "node   lib/app"
+  }
+}
