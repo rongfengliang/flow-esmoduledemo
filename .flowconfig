@@ -1,9 +1,7 @@
 [ignore]
-./src/api.js
-./src/app.js
-./src/user.js
+
 [include]
-./src/extendapp.js
+
 [libs]
 
 [lints]
