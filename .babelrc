@@ -3,6 +3,6 @@
         "flow","env"
     ],
     "plugins": [
-        "transform-amd-to-commonjs"
+        "transform-amd-to-commonjs","transform-object-rest-spread"
     ]
 }
